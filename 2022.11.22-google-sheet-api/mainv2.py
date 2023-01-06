@@ -22,11 +22,11 @@ except:
     quit()
 
 sheet_file 	= workspace.sheet1
-sheet_name_values	= sheet_file.range('B2:B20')
-sheet_sname_values	= sheet_file.range('c2:c20')
+sheet_name_values	= sheet_file.range('B2:B19')
+sheet_sname_values	= sheet_file.range('c2:c19')
 
-group_a_ceils = sheet_file.range('G2:G12')
-group_b_ceils = sheet_file.range('H2:H12')
+group_a_ceils = sheet_file.range('I2:I12')
+group_b_ceils = sheet_file.range('J2:J12')
 
 name_list 	= []
 group_table = [["Group A", "Group B"]]
