@@ -1,0 +1,3 @@
+[submodule "2022.06.16-sortedAutonomousPlane"]
+	path = 2022.06.16-sortedAutonomousPlane
+	url = git@github.com:miron-khoruzhenko/autonomous_plane.git
