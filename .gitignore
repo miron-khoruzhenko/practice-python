@@ -6,6 +6,10 @@
 
 /2022.06.15-yt-video-downloader/php_course
 
+# игнорируй все но не файлы py
+2022.06.15-yt-video-downloader/*
+!/2022.06.15-yt-video-downloader/*.py
+
 /2022.11.17-sigma-edu
 2022.11.22-google-sheet-api/**/*.json
 tmp.py
