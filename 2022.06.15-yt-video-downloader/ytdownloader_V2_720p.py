@@ -2,6 +2,7 @@ from __future__ import unicode_literals
 from tokenize import endpats
 import yt_dlp
 from yt_dlp.postprocessor.common import PostProcessor
+import sys
 
 # def progress_hook(d):
 #     # if d['status'] == 'finished':
@@ -34,7 +35,8 @@ ydl_opts = {
     # "writethumbnail" : True,
 }
 
-fileWithURLs = input("Name(path) of file with URLs> ")
+# fileWithURLs = input("Name(path) of file with URLs> ")
+fileWithURLs = sys.argv[1]
 fileWithURLs = open(fileWithURLs)
 try:
     linksArray = fileWithURLs.read().split("\n")
