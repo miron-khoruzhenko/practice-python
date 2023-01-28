@@ -13,3 +13,5 @@
 /2022.11.17-sigma-edu
 2022.11.22-google-sheet-api/**/*.json
 tmp.py
+
+/**/*.jpg
