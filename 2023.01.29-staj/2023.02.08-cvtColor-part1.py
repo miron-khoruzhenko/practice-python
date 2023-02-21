@@ -119,21 +119,6 @@ while True:
     #     (bgr_r + bgr_r1)])
 
 
-    #* Joe enchanting
-
-    # processed_frame = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
-    # avg_a = np.average(processed_frame[:, :, 1])
-    # avg_b = np.average(processed_frame[:, :, 2]) 
-
-    # processed_frame[:, :, 1] = processed_frame[:, :, 1] - ((avg_a - 128) * (processed_frame[:, :, 0] / 255.0) * 1.1)
-    # processed_frame[:, :, 2] = processed_frame[:, :, 2] - ((avg_b - 128) * (processed_frame[:, :, 0] / 255.0) * 1.1)
-
-
-    # rgb_new = cv2.cvtColor(processed_frame, cv2.COLOR_LAB2BGR)
-
-    # * END OF ENCHANTING
-
-
     kernel = np.array([[0, -1, 0],
                     [-1, 5,-1],
                     [0, -1, 0]])
