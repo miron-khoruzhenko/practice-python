@@ -14,10 +14,10 @@ def fastPutText(img, str, coord=(0, 15), color=(0, 0, 0)):
                 cv2.FONT_HERSHEY_SIMPLEX, 
                 0.5, color, 1, cv2.LINE_AA)
 
-cap = cv2.VideoCapture('deep.mp4')
+cap = cv2.VideoCapture('./deep.mp4')
 
 if not cap.isOpened():
-    print('\033[93mSomething went wrong. Control your working directory and path\033[0m')
+    print('\033[93mSomething went wrong. Control your path and cwd\033[0m')
     quit()
 
 ret, img = cap.read()

@@ -1,8 +1,19 @@
 from __future__ import unicode_literals
 from tokenize import endpats
 import yt_dlp
-from yt_dlp.postprocessor.common import PostProcessor
 import sys
+
+
+#* ---------------===== ABOUT =====---------------
+# 
+#*      Программма считаывает переданный в аргументах 
+#* файл с ссылками и скачивают все видео в с них.
+# 
+#* Запуск программы:
+#* python ytdownloader_V2_720p.py file-with-links
+# 
+#* ---------------=====  END  =====---------------
+
 
 # def progress_hook(d):
 #     # if d['status'] == 'finished':

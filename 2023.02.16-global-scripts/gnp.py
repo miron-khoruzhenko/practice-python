@@ -8,6 +8,7 @@ source  = os.path.join(os.path.dirname(__file__), "2023.02.18-gnp-src")
 todayDate = date.today().strftime("%Y.%m.%d")
 
 
+# allFirstSubdirs = ["0-empty-folder"]
 allFirstSubdirs = os.listdir(source)
 allFirstSubdirs.sort()
 # allFirstSubdirs = allFirstSubdirs[:-1]
@@ -38,7 +39,7 @@ while True:
         continue
 
     folderIndex = int(folderIndex)
-    if(0 > folderIndex or folderIndex > len(allFirstSubdirs) -1):
+    if(0 > folderIndex or folderIndex > len(allFirstSubdirs) - 1):
         print(f'{COLORS.ERROR}ERROR: Enter only {COLORS.UNDERLINE}number between{COLORS.DEFAULT}{COLORS.ERROR} 0 and ' + str(len(allFirstSubdirs) - 1) + f'{COLORS.DEFAULT}')
         continue
     break
