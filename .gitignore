@@ -18,6 +18,7 @@ tmp*
 /**/*.png
 /**/*.mp4
 /**/temp*
+/**/tmp*
 
 /2023.02.16-global-scripts/2023.02.18-gnp-src/*
 /2023.03.01-lesson-bots/2023.03.01-my-version/
