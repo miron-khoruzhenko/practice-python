@@ -62,7 +62,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image in grayscale
-img = cv2.imread('image.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('img2.jpeg', cv2.IMREAD_GRAYSCALE)
 
 # Create an empty numpy array to store the histogram
 hist = np.zeros((256), dtype=int)
@@ -81,10 +81,13 @@ plt.show()
 cdf = np.cumsum(hist) 
 cdf_min = cdf[img.min()]
 img_eq = ((cdf[img] - cdf_min) * 255 / (img.size - cdf_min)).astype(np.uint8)
+img_eq_2 = ((cdf[img]) * 255 / (img.size)).astype(np.uint8)
+
 
 # Display the original and equalized images
 cv2.imshow('Original Image', img)
 cv2.imshow('Equalized Image', img_eq)
+cv2.imshow('Equalized Image _Baho', img_eq_2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 

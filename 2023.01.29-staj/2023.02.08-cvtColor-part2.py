@@ -66,6 +66,7 @@ while True:
 
 
     img = cv2.resize(img, (int(width/4), int(height/4)))
+    # img = cv2.resize(img, (int(width), int(height)))
 
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     hsv[:, :, 2] += 145
