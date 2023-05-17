@@ -24,22 +24,30 @@ def takeCoords(height, width, x, y):
     return coords
 
 
+def getContoursOf(img):
+    lower, higher   = (22, 79)
+    blur        = 2
+
+    img      = cv2.GaussianBlur(img, (blur*2 + 1, blur*2 + 1), 0) 
+    thresh   = cv2.Canny(img, lower, higher)
+    contours = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)[0]
+
+    return contours
+
+
+
 def drawContours(img):
     height, width, = img.shape[:2]
 
     blank = np.ones_like(img, np.uint8) 
     blank.fill(255)
 
-    lower, higher   = (22, 79)
     circle      = 1
-    blur        = 2
     font_style  = cv2.FONT_HERSHEY_SIMPLEX
     black       = (0,0,0)
+    grey        = (200, 200, 200)
 
-
-    img      = cv2.GaussianBlur(img, (blur*2 + 1, blur*2 + 1), 0) 
-    thresh   = cv2.Canny(img, lower, higher)
-    contours = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)[0]
+    contours = getContoursOf(img)
 
 
     for cnt in contours:
@@ -54,15 +62,15 @@ def drawContours(img):
 
             cv2.putText(blank, "r={:.2f}".format(radius), coords, 
                         font_style, 0.5, (100, 0, 0), 1)
-            cv2.line(blank, (int(x), int(y)), coords, black, 1)
+            cv2.line(blank, (int(x), int(y)), coords, grey, 1)
 
         else:
             x, y, w, h  = cv2.boundingRect(cnt)
             coords      = takeCoords(height, width, x, y)
 
+            cv2.line(blank, (x, y), coords, grey, 1)
             cv2.putText(blank, f"x={int(math.sqrt(h**2 + w**2))}", 
                         coords, font_style, 0.5, black, 1)
-            cv2.line(blank, (x, y), coords, black, 1)
 
     return blank
 
@@ -73,9 +81,8 @@ for filename in glob.glob('./images/*.jpeg'):
 if len(images) == 0:
     print('Something wrong. Check path or current working directory (CWD).')
 
+if __name__ == '__main__':
+    for index, img in enumerate(images):
+        blank = drawContours(img)
 
-
-for index, img in enumerate(images):
-    blank = drawContours(img)
-
-    cv2.imwrite(datetime.today().strftime(f"%Y.%m.%d-{index+1}")+'.jpg', blank)
+        cv2.imwrite(datetime.today().strftime(f"%Y.%m.%d-{index+1}")+'.jpg', blank)

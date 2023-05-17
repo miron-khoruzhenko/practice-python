@@ -4,3 +4,9 @@
 [submodule "2023.03.01-lesson-bots/2023.03.01-coop-lesson-bot"]
 	path = 2023.03.01-lesson-bots/2023.03.01-coop-lesson-bot
 	url = https://github.com/bahadircan-bc/AutoLecture
+[submodule "2023.05.16-school-cv-project/fletdev-ver"]
+	path = 2023.05.16-school-cv-project/fletdev-ver
+	url = https://github.com/miron-khoruzhenko/cv-school-project
+[submodule "2023.04.12-trading-bot"]
+	path = 2023.04.12-trading-bot
+	url = https://github.com/bahadircan-bc/mexc-bot
