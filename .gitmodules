@@ -1,12 +1,16 @@
 [submodule "2022.06.16-sortedAutonomousPlane"]
 	path = 2022.06.16-sortedAutonomousPlane
 	url = git@github.com:miron-khoruzhenko/autonomous_plane.git
+	branch = master
 [submodule "2023.03.01-lesson-bots/2023.03.01-coop-lesson-bot"]
 	path = 2023.03.01-lesson-bots/2023.03.01-coop-lesson-bot
 	url = git@github.com:bahadircan-bc/AutoLecture.git
+	branch = master
 [submodule "2023.04.12-trading-bot"]
 	path = 2023.04.12-trading-bot
 	url = git@github.com:bahadircan-bc/mexc-bot.git
+	branch = master
 [submodule "2023.03.09-qt-creator/2023.03.28-school-cv-finished"]
 	path = 2023.03.09-qt-creator/2023.03.28-school-cv-finished
 	url = git@github.com:miron-khoruzhenko/qt-school-cv-project.git
+	branch = master
