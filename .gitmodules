@@ -3,13 +3,10 @@
 	url = git@github.com:miron-khoruzhenko/autonomous_plane.git
 [submodule "2023.03.01-lesson-bots/2023.03.01-coop-lesson-bot"]
 	path = 2023.03.01-lesson-bots/2023.03.01-coop-lesson-bot
-	url = https://github.com/bahadircan-bc/AutoLecture
-[submodule "2023.05.16-school-cv-project/fletdev-ver"]
-	path = 2023.05.16-school-cv-project/fletdev-ver
-	url = https://github.com/miron-khoruzhenko/cv-school-project
+	url = git@github.com:bahadircan-bc/AutoLecture.git
 [submodule "2023.04.12-trading-bot"]
 	path = 2023.04.12-trading-bot
-	url = https://github.com/bahadircan-bc/mexc-bot
+	url = git@github.com:bahadircan-bc/mexc-bot.git
 [submodule "2023.03.09-qt-creator/2023.03.28-school-cv-finished"]
 	path = 2023.03.09-qt-creator/2023.03.28-school-cv-finished
-	url = https://github.com/miron-khoruzhenko/qt-school-cv-project
+	url = git@github.com:miron-khoruzhenko/qt-school-cv-project.git
