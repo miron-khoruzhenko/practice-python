@@ -22,7 +22,7 @@ class DriverOptions:
     options = Options()
 
     options.add_argument('--no-sandbox')
-    # options.add_argument('--headless')
+    options.add_argument('--headless')
     options.add_argument('--disable-dev-shm-usage')
     # options.add_experimental_option("detach", True)
 
@@ -30,12 +30,12 @@ class DriverOptions:
     # self.driver = Firefox(service=FirefoxService(executable_path=GeckoDriverManager().install()), options=options)
     self.driver = Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    self.driver.implicitly_wait(.3)
+    self.driver.implicitly_wait(1)
     # Для работы в режиме headless
     self.driver.set_window_size(1440, 900) 
 
 
-    self.wait = WebDriverWait(self.driver, .3)
+    self.wait = WebDriverWait(self.driver, 1)
     self.driver.maximize_window()
 
   def wait_clickable(self, by, path):
