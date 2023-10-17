@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.remote.webelement import WebElement
 
-
+import time
 
 class DriverOptions:
   def __init__(self):
@@ -18,7 +18,6 @@ class DriverOptions:
       
   
   def setup_driver(self):
-      # options = FirefoxOptions()
     options = Options()
 
     options.add_argument('--no-sandbox')
@@ -26,16 +25,22 @@ class DriverOptions:
     options.add_argument('--disable-dev-shm-usage')
     # options.add_experimental_option("detach", True)
 
+    # options.add_extension('./src/plugins/ablock_extension_3_19_0_0.crx')
+    options.add_argument('--user-data-dir=./src/browser_profile')
+    options.add_argument('--disable-gpu')
+    options.add_argument("--enable-logging=stderr --v=1")
 
-    # self.driver = Firefox(service=FirefoxService(executable_path=GeckoDriverManager().install()), options=options)
     self.driver = Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    self.driver.implicitly_wait(1)
+
+    self.driver.implicitly_wait(.3)
     # Для работы в режиме headless
     self.driver.set_window_size(1440, 900) 
 
 
-    self.wait = WebDriverWait(self.driver, 1)
+    self.wait = WebDriverWait(self.driver, .1)
+
+
     self.driver.maximize_window()
 
   def wait_clickable(self, by, path):
