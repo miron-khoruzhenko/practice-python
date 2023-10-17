@@ -11,3 +11,4 @@ load_more_btn = '/html/body/div[2]/div[2]/div/div[2]/div/button'
 
 card_container_ID = 'company-items'
 
+company_cards = '/html/body/div[2]/div[2]/div/div[1]/div'

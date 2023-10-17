@@ -5,6 +5,8 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
 import paths
 import time
 import textwrap
@@ -12,9 +14,14 @@ import textwrap
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+
 from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium.webdriver.common.action_chains import ActionChains
+import sys
+
+
+
 
 class DriverOptions:
     def __init__(self):
@@ -36,7 +43,7 @@ class DriverOptions:
         # self.driver = Firefox(service=FirefoxService(executable_path=GeckoDriverManager().install()), options=options)
         self.driver = Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(5)
         # Для работы в режиме headless
         self.driver.set_window_size(1440, 900) 
 
@@ -61,6 +68,7 @@ class DriverOptions:
 class DataScrabing(DriverOptions):
     def __init__(self):
         super().__init__()
+        self.dynamic_word_len = 0
 
 
     def start(self):
@@ -83,7 +91,7 @@ class DataScrabing(DriverOptions):
         # Заполнение формы для поиска
         sector.send_keys('Yazılım')
         location.send_keys('YTÜ YILDIZ TEKNOPARK DAVUTPAŞA YERLEŞKESİ')
-        building.send_keys('Kuluçka Merkezi C1 Blok') # Тестовый блок для уменьшения карточек
+        # building.send_keys('Kuluçka Merkezi C1 Blok') # Тестовый блок для уменьшения карточyек
 
         search_btn = self.wait_clickable(By.XPATH, paths.search_btn)
 
@@ -98,6 +106,18 @@ class DataScrabing(DriverOptions):
         
         self.show_all_cards()
         self.process_container_with()
+
+    def dynamic_print(self, dynamic_msg):
+        write = sys.stdout.write
+        write('\b' * self.dynamic_word_len)
+
+        write(dynamic_msg + ' ' * 5)
+        # write(f'{self.dynamic_word_len}')
+                
+        self.dynamic_word_len = len(dynamic_msg) + 1 + 5
+    
+        # write('\n')
+
 
 
     def get_cards_count(self):
@@ -123,7 +143,6 @@ class DataScrabing(DriverOptions):
                     time.sleep(.3)
 
                 prev_card_count = self.get_cards_count()
-                print(prev_card_count)
 
             except: 
                 try:
@@ -148,11 +167,37 @@ class DataScrabing(DriverOptions):
         
     # def process_container_with(self, functions=print):
     def process_container_with(self):
-        container = self.driver.find_elements(By.XPATH, '/html/body/div[2]/div[2]/div/div[1]/div')
-        print('container: ', container)
+        container = self.driver.find_elements(By.XPATH, paths.company_cards)
+        companies_wroted = 0
 
-        for item in container:
-            print(item)
+        self.driver.execute_script('console.log("hello")')
+        file = open('text.md', 'w')
+        
+
+        for index, item in enumerate(container):
+            link = item.find_element(By.XPATH, './/div/div/a')
+            # heading = item.find_element(By.XPATH, './/div/div/a/h6')
+
+            # print(heading.get_attribute('innerText'))
+            # file.write(heading.get_attribute('innerText') + '\n')
+
+            link.send_keys(Keys.CONTROL + Keys.RETURN)
+            self.driver.switch_to.window(self.driver.window_handles[-1])
+
+            descr = self.wait_located(By.XPATH, '/html/body/div[2]/div[2]/div/div/div[1]/table/tbody')
+            file.write(descr.find_element(By.XPATH, './/tr[2]').get_attribute('innerText') + '\n')
+            file.write(descr.find_element(By.XPATH, './/tr[4]').get_attribute('innerText') + '\n')
+            file.write(descr.find_element(By.XPATH, './/tr[5]').get_attribute('innerText') + '\n')
+            file.write(descr.find_element(By.XPATH, './/tr[6]').get_attribute('innerText').replace('http://', '') + '\n')
+            file.write('\n')
+            # file.write(descr.get_attribute('innerText') + '\n\n')
+
+            self.driver.close()
+            self.driver.switch_to.window(self.driver.window_handles[0])
+            companies_wroted += 1
+
+            self.dynamic_print(f'Companies Saved: {companies_wroted}')
+        print()
 
 
 
@@ -163,12 +208,3 @@ class DataScrabing(DriverOptions):
 if __name__ == '__main__':
     bot = DataScrabing()
     bot.start()
-
-
-
-
-# with open('data.txt', 'r') as file:
-#     lines = file.readlines()
-
-#     for line in lines:
-#         print(line)

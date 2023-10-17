@@ -1,0 +1,27 @@
+2023-09-04 05:26:00 - mironkhoruzhenko: test
+2023-09-04 05:26:00 - BOT: Тестовое сообщение
+2023-09-04 05:35:42 - mironkhoruzhenko: system:[photo] Alt:None
+2023-09-04 05:35:42 - BOT: Photo saved successfully
+2023-09-04 05:35:42 - SYSTEM: Photo saved (https://api.telegram.org/file/bot5835450415:AAG53FqTKV8JX5bIXEsUIh35CBmbRClt9QI/photos/file_0.jpg)
+2023-09-04 05:35:52 - mironkhoruzhenko: system:[photo] Alt:None
+2023-09-04 05:35:52 - BOT: Photo saved successfully
+2023-09-04 05:35:52 - SYSTEM: Photo saved (https://api.telegram.org/file/bot5835450415:AAG53FqTKV8JX5bIXEsUIh35CBmbRClt9QI/photos/file_0.jpg)
+2023-09-04 05:36:03 - mironkhoruzhenko: system:[photo] Alt:sdfsdfssfsf
+2023-09-04 05:36:03 - BOT: Photo saved successfully
+2023-09-04 05:36:03 - SYSTEM: Photo saved (https://api.telegram.org/file/bot5835450415:AAG53FqTKV8JX5bIXEsUIh35CBmbRClt9QI/photos/file_0.jpg)
+2023-09-04 05:36:48 - mironkhoruzhenko: system:[photo] Alt:dsfsdfsdfsd
+2023-09-04 05:36:48 - BOT: Photo saved successfully
+2023-09-04 05:36:48 - SYSTEM: Photo saved 
+		(https://api.telegram.org/file/bot5835450415:AAG53FqTKV8JX5bIXEsUIh35CBmbRClt9QI/photos/file_0.jpg)
+2023-09-04 05:48:10 - mironkhoruzhenko: /get_date
+2023-09-04 05:48:10 - BOT: 2023-09-04 05:48:10
+2023-09-04 05:52:30 - mironkhoruzhenko: тест 1
+2023-09-04 05:52:30 - BOT: Тест номер 1
+2023-09-04 05:56:57 - mironkhoruzhenko: /test
+2023-09-04 05:56:57 - BOT: I don't speak your language. I'm a robot. 
+2023-09-04 05:57:05 - mironkhoruzhenko: /test
+2023-09-04 05:57:05 - BOT: I don't speak your language. I'm a robot. 
+2023-09-04 05:58:15 - mironkhoruzhenko: test
+2023-09-04 05:58:15 - BOT: Тестовое сообщение
+2023-09-04 06:00:39 - mironkhoruzhenko: тест 1
+2023-09-04 06:00:39 - BOT: Тест номер 1

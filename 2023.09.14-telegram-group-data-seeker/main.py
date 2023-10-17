@@ -1,25 +1,21 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
-from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.remote.webelement import WebElement
 
 import time
-import textwrap
-
 
 import sys
 from io import TextIOWrapper
 import os
 import re
-import json
+import requests
 
 from unidecode import unidecode
 
@@ -75,6 +71,7 @@ class DataScrabing(DriverOptions):
     self.links_file_lines = ""
     self.index = 0
     self.previous_name = ''
+    self.imgIndex = 1
 
 
 
@@ -135,6 +132,8 @@ class DataScrabing(DriverOptions):
 
     if('data' not in os.listdir()):
       os.mkdir('./data')
+    if('img' not in os.listdir()):
+      os.mkdir('./img')
 
     if ("end" != filename):
       self.file = open(f"./data/{self.index}.{filename}.ts", 'w')
@@ -169,7 +168,9 @@ class DataScrabing(DriverOptions):
     
     try:
       headingWE : WebElement = self.wait_located(By.XPATH, '/html/body/div[2]/div[2]/div/div[2]/span')
-    except:
+    except Exception as e:
+      with open('errors.md', a) as file:
+        file.write(f'NO HEADING: Error. Link may be expired')
       return()
     try:
       descrWE   : WebElement = self.wait_located(By.CLASS_NAME, 'tgme_page_description')
@@ -180,13 +181,29 @@ class DataScrabing(DriverOptions):
 
     heading : str = headingWE.get_attribute('innerText').replace('"', "'")
     descr   : str = descrWE and descrWE.get_attribute('innerHTML').replace('"', "'")
-    img     : str = imgWE.get_attribute('src')
     members : str = extraWE.get_attribute('innerText').split(', ')[0]
+    imgLink : str = imgWE.get_attribute('src')
+    imgSrc  : str = f"./img/img{str(self.imgIndex).zfill(3)}.png"
 
-    print('\tName: ', heading)
+    self.imgIndex += 1
 
+    # self.driver.get(imgLink)
+    # self.driver.save_screenshot(imgSrc)
 
-    return([heading, descr, img, url, members])
+    try:
+      response = requests.get(imgLink)
+
+      if response.status_code == 200:
+          with open(imgSrc, 'wb') as file:
+              file.write(response.content)
+      else:
+          print("Не удалось загрузить изображение.")
+    except Exception as e:
+      with open('errors.md', 'a') as file:
+        file.write(f'LOADING ERROR: {url} \n \t{e}')
+      print(f"Ошибка при загрузку изображения", e)
+
+    return([heading, descr, imgSrc, url, members])
 
 
 
@@ -203,6 +220,8 @@ class DataScrabing(DriverOptions):
       f'\t\thref : "{href}",\n'
       f'\t\tindex : index++,\n'
     "\t},\n")
+
+    print(f'DONE: {heading} - {href}')
 
 
     self.file.write(jsonStr)
