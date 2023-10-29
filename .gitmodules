@@ -14,3 +14,6 @@
 	path = 2023.03.09-qt-creator/2023.03.28-school-cv-finished
 	url = git@github.com:miron-khoruzhenko/qt-school-cv-project.git
 	branch = master
+[submodule "2023.09.18-company-seeker-bot"]
+	path = 2023.09.18-company-seeker-bot
+	url = git@github.com:miron-khoruzhenko/python-data-seeker.git

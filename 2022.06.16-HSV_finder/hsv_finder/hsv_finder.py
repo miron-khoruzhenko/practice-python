@@ -16,7 +16,8 @@ hsv_blank_image = cv2.cvtColor(blank_image, cv2.COLOR_BGR2HSV)
 # image = cv2.imread('/home/strewen/Desktop/VS_Code_Projects/Python/ImgProcess/imgs/rgb_spectrum_resized.jpg')
 # image = cv2.imread('/home/strewen/Desktop/VS_Code_Projects/Python/ImgProcess/imgs/rgbspectrum1.jpg')
 # image1 = cv2.imread('/home/strewen/Desktop/VS_Code_Projects/Python/ImgProcess/imgs/red.png')
-image2 = cv2.imread('C:/Users/Miron/Desktop/VS_Code_Projects/2022.06.16-sortedAutonomousPlane/HSV_finder/hsv_finder/colorpanel_red.jpeg')
+# image2 = cv2.imread('C:/Users/Miron/Desktop/VS_Code_Projects/2022.06.16-sortedAutonomousPlane/HSV_finder/hsv_finder/colorpanel_red.jpeg')
+image2 = cv2.imread('./colorpanel_red.jpeg')
 
 def hsv_process(image):
     if(type(image) is NoneType):
