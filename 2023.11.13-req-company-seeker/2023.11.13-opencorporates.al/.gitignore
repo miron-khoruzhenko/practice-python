@@ -1,0 +1,7 @@
+test*.txt
+**/test*.txt
+**/src
+**/backup
+**/dist
+**/dıst
+**/*.zip
