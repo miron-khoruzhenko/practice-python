@@ -169,7 +169,7 @@ class DataScrabing(DriverOptions):
     try:
       headingWE : WebElement = self.wait_located(By.XPATH, '/html/body/div[2]/div[2]/div/div[2]/span')
     except Exception as e:
-      with open('errors.md', a) as file:
+      with open('errors.md', 'a') as file:
         file.write(f'NO HEADING: Error. Link may be expired')
       return()
     try:
