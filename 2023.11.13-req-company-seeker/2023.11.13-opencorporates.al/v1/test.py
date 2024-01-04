@@ -1,3 +1,0 @@
-arr = []
-
-print(', '.join(arr))

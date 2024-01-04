@@ -1,0 +1,130 @@
+,0,1
+0,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,application/json
+1,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,application/json
+2,http://detectportal.firefox.com/canonical.html,text/html
+3,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,application/json
+4,https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/query-stripping/changeset?_expected=1694689843914,application/json
+5,https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/fingerprinting-protection-overrides/changeset?_expected=1683645166454,application/json
+6,https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/partitioning-exempt-urls/changeset?_expected=1702403047185,application/json
+7,https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.chain,binary/octet-stream
+8,https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.chain,binary/octet-stream
+9,https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.chain,binary/octet-stream
+10,http://fedoraplanet.org/images-v2/favicon.ico,text/html; charset=iso-8859-1
+11,https://discordapp.com/assets/07dca80a102d4149e9736d4b162cff6f.ico,text/html
+12,https://riot.im/app/vector-icons/favicon.ico,image/vnd.microsoft.icon
+13,https://www.redhat.com/misc/favicon.ico,text/html; charset=UTF-8
+14,https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2,application/octet-stream
+15,https://developer.jboss.org/resources/images/palette-1001/faviconImage-1406099167844-favicon.ico,image/vnd.microsoft.icon
+16,https://creativecommons.org/wp-content/uploads/2016/05/cc-site-icon-300x300.png,image/png
+17,https://abs.twimg.com/favicons/favicon.ico,image/vnd.microsoft.icon
+18,https://www.wikipedia.org/static/favicon/wikipedia.ico,image/vnd.microsoft.icon
+19,https://telegram.me/favicon.ico?3,text/html; charset=UTF-8
+20,https://getfedora.org/static/images/favicon.ico,text/html; charset=iso-8859-1
+21,https://www.redditstatic.com/favicon.ico,image/vnd.microsoft.icon
+22,https://opensource.com/sites/all/themes/opensource/favicon.ico,text/html; charset=UTF-8
+23,https://arm.fedoraproject.org/static/images/favicon.ico,text/html; charset=iso-8859-1
+24,https://spins.fedoraproject.org/static/images/favicon.ico,text/html; charset=iso-8859-1
+25,https://alt.fedoraproject.org/static/images/favicon.ico,image/vnd.microsoft.icon
+26,https://fedoramagazine.org/wp-content/themes/fedoramagazine-theme-0.09/favicon.ico,text/html
+27,https://diasp.org/assets/favicon-6c483382d6196fb46215c44e6bdaffcdd019cc0a8e12fd1a1b62356721de1476.png,image/png
+28,https://librivox.org/wp-content/themes/librivox/favicon.ico,image/vnd.microsoft.icon
+29,https://labs.fedoraproject.org/static/images/favicon.ico,image/vnd.microsoft.icon
+30,https://www.openshift.org/img/icons/favicon.png,text/html; charset=iso-8859-1
+31,https://ask.fedoraproject.org/upfiles/ask_favicon.ico,
+32,https://fedoraproject.org/favicon.ico,image/vnd.microsoft.icon
+33,https://fedoraproject.org/static/images/favicon.ico,text/html
+34,https://fedoraproject.org/static/images/favicon.ico,text/html
+35,https://pdf.paylasimevi.com/tr/ebooks/9-sinif-konulari-tyt-ayt-ders-notlari-pdf.html,text/html; charset=UTF-8
+36,https://fedoraproject.org/spins/,text/html
+37,https://tracking-protection.cdn.mozilla.net/ads-track-digest256/121.0/1700246959,application/octet-stream
+38,https://tracking-protection.cdn.mozilla.net/social-track-digest256/121.0/1700246959,application/octet-stream
+39,https://www.okd.io/img/icons/favicon.png,image/png
+40,https://discussion.fedoraproject.org/askfedora/upfiles/ask_favicon.ico,text/html; charset=utf-8
+41,https://tracking-protection.cdn.mozilla.net/analytics-track-digest256/121.0/1700246959,application/octet-stream
+42,https://pdf.paylasimevi.com/themes/cynoebook/public/css/app.css?v=2.0.3,text/css
+43,https://pdf.paylasimevi.com/storage/media/fFEbwebO5cAIq0D3SaCEZsCQrPCxTqpU3Mvx7Qgr.png,image/png
+44,https://pdf.paylasimevi.com/storage/media/evtBdI6B35iph5uTeexOQjmmmXNkV9N0lo1EwPbc.png,image/png
+45,https://pdf.paylasimevi.com/storage/media/TQoiepQHivOxXd3UBXO1ujPJL0R2GPOfOsQLqPdf.png,image/png
+46,https://pdf.paylasimevi.com/captcha/image?_=1866751688,image/png
+47,https://pdf.paylasimevi.com/storage/media/JsD3IetgFMZ9o0hPOXDNnwG5biCP0F4ugFpgeIVw.png,image/png
+48,https://pdf.paylasimevi.com/storage/media/9pcbyCzMuficDOooRSBeubH4OOPcBTKQAQCkBEDe.png,image/png
+49,https://pdf.paylasimevi.com/themes/cynoebook/public/js/app.js?v=2.0.3,text/javascript
+50,https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3650086314617828,text/javascript; charset=UTF-8
+51,"https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:400,500",text/css; charset=utf-8
+52,https://tracking-protection.cdn.mozilla.net/content-track-digest256/121.0/1700246959,application/octet-stream
+53,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/viewer.html?file=https://pdf.paylasimevi.com/storage/media/YnYqr9FZPh0RZG29kLtufBrN6NOadHbIQffEPIpB.pdf,text/html
+54,https://pdf.paylasimevi.com/themes/cynoebook/public/images/arrow-black.png,image/png
+55,https://pdf.paylasimevi.com/themes/cynoebook/public/fonts/fontawesome-webfont.woff2?v=4.7.0,font/woff2
+56,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/viewer.html?file=https://pdf.paylasimevi.com/storage/media/YnYqr9FZPh0RZG29kLtufBrN6NOadHbIQffEPIpB.pdf,text/html
+57,https://tracking-protection.cdn.mozilla.net/mozstd-trackwhite-digest256/121.0/1700246959,application/octet-stream
+58,https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nBrXw.woff2,font/woff2
+59,https://pdf.paylasimevi.com/themes/cynoebook/public/css/ajax-loader.gif,image/gif
+60,https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2,font/woff2
+61,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/viewer.css,text/css
+62,https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nBrXw.woff2,font/woff2
+63,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/build/pdf.js,text/javascript
+64,https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2,font/woff2
+65,https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nPrXyi0A.woff2,font/woff2
+66,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/viewer.js,text/javascript
+67,https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202312070101/show_ads_impl_fy2021.js,text/javascript; charset=UTF-8
+68,https://googleads.g.doubleclick.net/pagead/html/r20240102/r20190131/zrt_lookup_fy2021.html,text/html; charset=UTF-8
+69,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/texture.png,image/png
+70,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-viewThumbnail.png,image/png
+71,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-viewOutline.png,image/png
+72,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-viewAttachments.png,image/png
+73,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-sidebarToggle.png,image/png
+74,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-search.png,image/png
+75,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-pageUp.png,image/png
+76,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-pageDown.png,image/png
+77,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-presentationMode.png,image/png
+78,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-print.png,image/png
+79,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-bookmark.png,image/png
+80,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-secondaryToolbarToggle.png,image/png
+81,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-zoomOut.png,image/png
+82,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-zoomIn.png,image/png
+83,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/toolbarButton-menuArrows.png,image/png
+84,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/locale/locale.properties,application/octet-stream
+85,https://tracking-protection.cdn.mozilla.net/google-trackwhite-digest256/121.0/1700246959,application/octet-stream
+86,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/locale/en-US/viewer.properties,application/octet-stream
+87,https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3650086314617828&output=html&adk=1812271804&adf=3025194257&lmt=1704305045&plat=1%3A1024%2C2%3A1024%2C3%3A2097152%2C4%3A2097152%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&format=0x0&url=https%3A%2F%2Fpdf.paylasimevi.com%2Ftr%2Febooks%2F9-sinif-konulari-tyt-ayt-ders-notlari-pdf.html&ea=0&pra=5&wgl=1&easpi=0&asro=0&asiscm=1&aslmt=0.4&asamt=-1&asedf=0&asefa=1&aseiel=1~2~4~6&aslcwct=150&asacwct=25&dt=1704305044006&bpp=33&bdt=1349&idt=1321&shv=r20240102&mjsv=m202312070101&ptt=9&saldr=aa&abxe=1&nras=1&correlator=192022849354&frm=20&pv=2&ga_vid=648514856.1704305045&ga_sid=1704305045&ga_hid=176890064&ga_fc=0&u_tz=180&u_his=1&u_h=768&u_w=1366&u_ah=747&u_aw=1366&u_cd=24&u_sd=1&adx=-12245933&ady=-12245933&biw=1366&bih=632&scr_x=0&scr_y=0&eid=44759875%2C44759926&oid=2&pvsid=1298079840515784&tmod=2008493278&uas=0&nvt=1&fsapi=1&fc=1920&brdim=0%2C21%2C0%2C21%2C1366%2C21%2C1366%2C747%2C1366%2C632&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&ifi=1&uci=a!1&fsb=1&dtd=1333,text/html; charset=UTF-8
+88,https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3650086314617828&output=html&h=280&adk=331682240&adf=714396070&pi=t.aa~a.59885945~rp.4&w=1200&fwrn=4&fwrnh=100&lmt=1704305045&rafmt=1&to=qs&pwprc=1756418781&format=1200x280&url=https%3A%2F%2Fpdf.paylasimevi.com%2Ftr%2Febooks%2F9-sinif-konulari-tyt-ayt-ders-notlari-pdf.html&ea=0&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1704305044039&bpp=4&bdt=1382&idt=1304&shv=r20240102&mjsv=m202312070101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0&nras=2&correlator=192022849354&frm=20&pv=1&ga_vid=648514856.1704305045&ga_sid=1704305045&ga_hid=176890064&ga_fc=0&u_tz=180&u_his=1&u_h=768&u_w=1366&u_ah=747&u_aw=1366&u_cd=24&u_sd=1&adx=83&ady=145&biw=1366&bih=632&scr_x=0&scr_y=0&eid=44759875%2C44759926&oid=2&pvsid=1298079840515784&tmod=2008493278&uas=0&nvt=1&fc=1920&brdim=0%2C21%2C0%2C21%2C1366%2C21%2C1366%2C747%2C1366%2C632&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&ifi=2&uci=a!2&fsb=1&dtd=1309,text/html; charset=UTF-8
+89,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/build/pdf.worker.js,text/javascript
+90,https://pdf.paylasimevi.com/storage/media/YnYqr9FZPh0RZG29kLtufBrN6NOadHbIQffEPIpB.pdf,application/pdf
+91,https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202312070101/reactive_library_fy2021.js,text/javascript; charset=UTF-8
+92,https://fundingchoicesmessages.google.com/i/ca-pub-3650086314617828?ers=2,application/javascript; charset=utf-8
+93,https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&client=ca-pub-3650086314617828&output=html&h=280&adk=960194045&adf=3137297729&pi=t.aa~a.2317180656~rp.4&w=1140&fwrn=4&fwrnh=100&lmt=1704305047&rafmt=1&to=qs&pwprc=1756418781&format=1140x280&url=https%3A%2F%2Fpdf.paylasimevi.com%2Ftr%2Febooks%2F9-sinif-konulari-tyt-ayt-ders-notlari-pdf.html&ea=0&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1704305046739&bpp=3&bdt=4082&idt=-M&shv=r20240102&mjsv=m202312070101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D77b3449b7cd79f38%3AT%3D1704305045%3ART%3D1704305045%3AS%3DALNI_MYephP70x0Eyvp94Bhn_bbevgVD1A&gpic=UID%3D00000d364ce096e7%3AT%3D1704305045%3ART%3D1704305045%3AS%3DALNI_MZhxnIK6FJbSKX8IUx75m4JO4nm3w&prev_fmts=0x0%2C1200x280&nras=3&correlator=192022849354&frm=20&pv=1&ga_vid=648514856.1704305045&ga_sid=1704305045&ga_hid=176890064&ga_fc=0&u_tz=180&u_his=1&u_h=768&u_w=1366&u_ah=747&u_aw=1366&u_cd=24&u_sd=1&adx=113&ady=980&biw=1366&bih=632&scr_x=0&scr_y=0&eid=44759875%2C44759926&oid=2&pvsid=1298079840515784&tmod=2008493278&uas=0&nvt=1&fc=1920&brdim=0%2C21%2C0%2C21%2C1366%2C21%2C1366%2C747%2C1366%2C632&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&ifi=3&uci=a!3&btvi=1&fsb=1&dtd=375,text/html; charset=UTF-8
+94,https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&client=ca-pub-3650086314617828&output=html&h=280&adk=2293381586&adf=2579594850&pi=t.aa~a.4229154716~rp.4&w=1140&fwrn=4&fwrnh=100&lmt=1704305047&rafmt=1&to=qs&pwprc=1756418781&format=1140x280&url=https%3A%2F%2Fpdf.paylasimevi.com%2Ftr%2Febooks%2F9-sinif-konulari-tyt-ayt-ders-notlari-pdf.html&ea=0&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1704305046739&bpp=2&bdt=4081&idt=-M&shv=r20240102&mjsv=m202312070101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D77b3449b7cd79f38%3AT%3D1704305045%3ART%3D1704305045%3AS%3DALNI_MYephP70x0Eyvp94Bhn_bbevgVD1A&gpic=UID%3D00000d364ce096e7%3AT%3D1704305045%3ART%3D1704305045%3AS%3DALNI_MZhxnIK6FJbSKX8IUx75m4JO4nm3w&prev_fmts=0x0%2C1200x280%2C1140x280&nras=4&correlator=192022849354&frm=20&pv=1&ga_vid=648514856.1704305045&ga_sid=1704305045&ga_hid=176890064&ga_fc=0&u_tz=180&u_his=1&u_h=768&u_w=1366&u_ah=747&u_aw=1366&u_cd=24&u_sd=1&adx=113&ady=1787&biw=1366&bih=632&scr_x=0&scr_y=0&eid=44759875%2C44759926&oid=2&pvsid=1298079840515784&tmod=2008493278&uas=0&nvt=1&fc=1920&brdim=0%2C21%2C0%2C21%2C1366%2C21%2C1366%2C747%2C1366%2C632&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&ifi=4&uci=a!4&btvi=2&fsb=1&dtd=388,text/html; charset=UTF-8
+95,https://googleads.g.doubleclick.net/pagead/html/r20240102/r20110914/zrt_lookup_fy2021.html?fsb=1,text/html; charset=UTF-8
+96,https://fundingchoicesmessages.google.com/f/AGSKWxWP3pl81MMQFfhKkwnsaxsxvRvwLq4CdonSOYXjHWAAsJIJT9XbiriuXH912jhtva3tpH3-Ano3z6PF0idD1aryQHgfLXpYWBB04ePwemJwfuYlgHqm6o2ufuIgaeU9kiacIp7rcA==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzA0MzA1MDQ3LDE1MDAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly9wZGYucGF5bGFzaW1ldmkuY29tL3RyL2Vib29rcy85LXNpbmlmLWtvbnVsYXJpLXR5dC1heXQtZGVycy1ub3RsYXJpLXBkZi5odG1sIixudWxsLFtbOCwiVXZGQlFSMzRTNVUiXSxbOSwiZW4tVVMiXSxbMTgsIltbWzBdXV0iXSxbMTksIjIiXSxbMTcsIlswXSJdXV0,application/javascript; charset=utf-8
+97,https://fundingchoicesmessages.google.com/f/AGSKWxXNLSGR8jxA7iR9-eXoEDyGkLnF-1Lit00wbzHAuVOvOi3jhEm7DixMvPLL-jDBmXNi1mykL89VhOVxMqyPlwXcz87-y2N8HOWLmQ-yKWTlyCM_do6e1ADYRcc-Xd0s-jRBnStf8Q==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzA0MzA1MDQ3LDQ0MTAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsOV0sbnVsbCwyLG51bGwsImVuIl0sImh0dHBzOi8vcGRmLnBheWxhc2ltZXZpLmNvbS90ci9lYm9va3MvOS1zaW5pZi1rb251bGFyaS10eXQtYXl0LWRlcnMtbm90bGFyaS1wZGYuaHRtbCIsbnVsbCxbWzgsIlV2RkJRUjM0UzVVIl0sWzksImVuLVVTIl0sWzE4LCJbW1swXV1dIl0sWzE5LCIyIl0sWzE3LCJbMF0iXV1d,application/javascript; charset=utf-8
+98,https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap,text/css; charset=utf-8
+99,https://fonts.googleapis.com/css?family=Google%20Sans%3A400%2C500,text/css; charset=utf-8
+100,https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211,text/html; charset=UTF-8
+101,https://tracking-protection.cdn.mozilla.net/base-fingerprinting-track-digest256/121.0/1700246959,application/octet-stream
+102,https://tpc.googlesyndication.com/pagead/js/r20231207/r20110914/client/load_preloaded_resource_fy2021.js,text/javascript; charset=UTF-8
+103,https://tpc.googlesyndication.com/pagead/js/r20231207/r20110914/elements/html/interstitial_ad_frame_fy2021.js,text/javascript; charset=UTF-8
+104,https://tpc.googlesyndication.com/pagead/js/r20231207/r20110914/client/qs_click_protection_fy2021.js,text/javascript; charset=UTF-8
+105,https://www.gstatic.com/mysidia/f9d9b65dbd646119ce96bad0f484d579.js?tag=mysidia_one_click_handler_one_afma_2019,text/javascript
+106,https://tpc.googlesyndication.com/pagead/js/r20231207/r20110914/abg_lite_fy2021.js,text/javascript; charset=UTF-8
+107,https://tpc.googlesyndication.com/pagead/js/r20231207/r20110914/elements/html/fullscreen_api_adapter_fy2021.js,text/javascript; charset=UTF-8
+108,https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914,text/javascript
+109,https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&client=ca-pub-3650086314617828&output=html&h=280&adk=2293381586&adf=2025028287&pi=t.aa~a.4229155749~rp.4&w=1140&fwrn=4&fwrnh=100&lmt=1704305048&rafmt=1&to=qs&pwprc=1756418781&format=1140x280&url=https%3A%2F%2Fpdf.paylasimevi.com%2Ftr%2Febooks%2F9-sinif-konulari-tyt-ayt-ders-notlari-pdf.html&ea=0&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1704305046513&bpp=2&bdt=3857&idt=2&shv=r20240102&mjsv=m202312070101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D77b3449b7cd79f38%3AT%3D1704305045%3ART%3D1704305045%3AS%3DALNI_MYephP70x0Eyvp94Bhn_bbevgVD1A&gpic=UID%3D00000d364ce096e7%3AT%3D1704305045%3ART%3D1704305045%3AS%3DALNI_MZhxnIK6FJbSKX8IUx75m4JO4nm3w&prev_fmts=0x0%2C1200x280%2C1140x280%2C1140x280%2C1366x632&nras=6&correlator=192022849354&frm=20&pv=1&ga_vid=648514856.1704305045&ga_sid=1704305045&ga_hid=176890064&ga_fc=0&u_tz=180&u_his=1&u_h=768&u_w=1366&u_ah=747&u_aw=1366&u_cd=24&u_sd=1&adx=113&ady=2441&biw=1366&bih=632&scr_x=0&scr_y=0&eid=44759875%2C44759926&oid=2&pvsid=1298079840515784&tmod=2008493278&uas=0&nvt=1&fc=1920&brdim=0%2C21%2C0%2C21%2C1366%2C21%2C1366%2C747%2C1366%2C632&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&ifi=5&uci=a!5&btvi=3&fsb=1&dtd=1646,text/html; charset=UTF-8
+110,https://www.gstatic.com/images/icons/material/system/2x/feedback_grey600_24dp.png,image/png
+111,https://tpc.googlesyndication.com/pagead/js/r20231207/r20110914/client/window_focus_fy2021.js,text/javascript; charset=UTF-8
+112,https://www.gstatic.com/images/icons/material/system/2x/settings_grey600_24dp.png,image/png
+113,https://pdf.paylasimevi.com/storage/media/YnYqr9FZPh0RZG29kLtufBrN6NOadHbIQffEPIpB.pdf,application/pdf
+114,https://pdf.paylasimevi.com/storage/media/YnYqr9FZPh0RZG29kLtufBrN6NOadHbIQffEPIpB.pdf,application/pdf
+115,https://www.google.com/pagead/drt/ui,text/html; charset=UTF-8
+116,https://tracking-protection.cdn.mozilla.net/base-cryptomining-track-digest256/121.0/1700246959,application/octet-stream
+117,https://fundingchoicesmessages.google.com/img/px.gif?ch=1&rn=5.953910033003299,image/gif
+118,https://fundingchoicesmessages.google.com/img/px.gif?ch=2&rn=3.568724290152003,image/gif
+119,https://pdf.paylasimevi.com/storage/media/YnYqr9FZPh0RZG29kLtufBrN6NOadHbIQffEPIpB.pdf,application/pdf
+120,https://googleads.g.doubleclick.net/pagead/drt/si?st=NO_DATA,text/html; charset=UTF-8
+121,https://fundingchoicesmessages.google.com/el/AGSKWxWgWAURwp8P0Ru4xF-WvpWLD6Xz3e2zNVo8xdbecJAKh1yI_Idnn5kQkUjXaZGuqrNrzIQsnCnb8T84pCgO-t7W_o9FnhtamIuoqImeHXac-QnxoZ37O9m3F8OWIFRmPlXRKvSxxA==,text/html; charset=utf-8
+122,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/shadow.png,image/png
+123,https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2,font/woff2
+124,https://fonts.gstatic.com/s/googlesans/v58/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2,font/woff2
+125,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/loading-icon.gif,image/gif
+126,https://fonts.gstatic.com/s/googlesans/v58/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvaYr.woff2,font/woff2
+127,https://pdf.paylasimevi.com/themes/cynoebook/pdfViewer/web/images/loading-small.png,image/png
+128,https://tracking-protection.cdn.mozilla.net/social-tracking-protection-facebook-digest256/121.0/1700246959,application/octet-stream

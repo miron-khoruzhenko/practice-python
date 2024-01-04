@@ -23,3 +23,6 @@
 [submodule "2023.09.18-company-seeker-selenium"]
 	path = 2023.09.18-company-seeker-selenium
 	url = git@github.com:miron-khoruzhenko/python-data-seeker.git
+[submodule "2023.07.28-data-mining"]
+	path = 2023.07.28-data-mining
+	url = git@github.com:miron-khoruzhenko/data-mining.git
