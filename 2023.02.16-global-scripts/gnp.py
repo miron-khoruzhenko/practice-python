@@ -65,12 +65,12 @@ while True:
     else:
         sure = 0
 
-        while sure != 'y' and sure != 'n':
+        while sure != 'y' and sure != 'n' and sure != '':
             os.system('clear')
             sure = input(f'{COLORS.ORANGE}The name of the project folder {COLORS.UNDERLINE + COLORS.YELLOW}{name}{COLORS.DEFAULT}{COLORS.ORANGE} are you sure?[Y/n]{COLORS.DEFAULT} ').lower()
             os.system('clear')
 
-        if(sure == 'y'):
+        if(sure == 'y' or sure == ''):
             dist = os.path.join(cwd, name)
             break
 
@@ -84,7 +84,7 @@ while True:
     
     os.system('clear')
 
-    if(x == 'y'):
+    if(x == 'y' or x == ''):
         copy_tree(source, dist)
         break
     elif(x == 'n'):
